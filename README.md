@@ -10,18 +10,7 @@ A aplicação de Negócio Bancário, realizado por Tatiani Meneghini da Silva.
     - [ ] Autenticação.
 - front-end: 
 
-### Primeiros passos
-- Criar arquivo server.js (servidor);
-- Criar pasta src > arquivo custom-express.js (inicializar o express);
-- Criar o padrão de arquitetura de software (MVC): 
-    > arquivo routes > route.js;
-    > arquivo infra > database.js;
-    > arquivo controllers > controller.js.
-- Criar arquivo Dao (encapsula e realiza as operações, bem como separa as regras de negócio das regras de acesso a banco de dados) com as Regras de negócio para bank, user, agency, client e currentAccount na pasta infra;
-- Conectar a Database com SQLite3 (banco de dados em SQLite3);
-- Criar database com todos as tabelas de Bank, User, Agency, Client e Current Account.
-
-### Instações
+### Instalações
 - `<npm init>`: inicializar package.json.
 - `<npm install sqlite3 --save>`: banco de dados estruturados (SQL).
 - `<npm install>`: instalar o pacote npm.
@@ -35,28 +24,39 @@ A aplicação de Negócio Bancário, realizado por Tatiani Meneghini da Silva.
 ##### Bug do SQLite3
 Excluir o package-lock.json e node_modules, instalar `<npm install sqlite3 --save>` e `<npm install>` novamente para debugar.
 
+## Primeiros passos
+- Criar arquivo server.js (servidor);
+- Criar pasta src > arquivo custom-express.js (inicializar o express);
+- Criar o padrão de arquitetura de software (MVC): 
+    > arquivo routes > route.js;
+    > arquivo infra > database.js;
+    > arquivo controllers > controller.js.
+- Criar arquivo Dao (encapsula e realiza as operações, bem como separa as regras de negócio das regras de acesso a banco de dados) com as Regras de negócio para bank, user, agency, client e currentAccount na pasta infra;
+- Conectar a Database com SQLite3 (banco de dados em SQLite3);
+- Criar database com todos as tabelas de Bank, User, Agency, Client e Current Account.
+
 ### Funcionamento
 - Users: admin, client e agency;
 - Funcionalidades: autenticar users (admin, bank, agency e client) e transação conta corrente.
 
-#### Endpoints
+### Endpoints
 **GET**
-    - Bancos/Banks;
-    - Usuários/Users;
-    - Agência/Agency;
-    - Clientes/Clients;
-    - Conta corrente/Current Account.
+- Bancos/Banks;
+- Usuários/Users;
+- Agência/Agency;
+- Clientes/Clients;
+- Conta corrente/Current Account.
 
 **POST**
-    - Bancos/Banks;
-    - Usuários/Users;
-    - Agência/Agency;
-    - Clientes/Clients;
-    - Conta corrente/Current Account.
+- Bancos/Banks;
+- Usuários/Users;
+- Agência/Agency;
+- Clientes/Clients;
+- Conta corrente/Current Account.
 
 **DELETE**
-    - Bancos/Banks;
-    - Usuários/Users;
-    - Agência/Agency;
-    - Clientes/Clients;
-    - Conta corrente/Current Account.
+- Bancos/Banks;
+- Usuários/Users;
+- Agência/Agency;
+- Clientes/Clients;
+- Conta corrente/Current Account.
