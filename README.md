@@ -1,4 +1,4 @@
-# Negócio Bancário
+# Negócio Bancário :moneybag:	
 
 A aplicação de Negócio Bancário, realizado por Tatiani Meneghini da Silva.
 
@@ -33,28 +33,30 @@ A aplicação de Negócio Bancário, realizado por Tatiani Meneghini da Silva.
 - `<npm install method-override>`: implementa requisições no método PUT de RESTful em express.
 
 ##### Bug do SQLite3
-Excluir o package-lock.json e node_modules, instalar <npm install sqlite3 --save> e <npm install> novamente para debugar.
+Excluir o package-lock.json e node_modules, instalar `<npm install sqlite3 --save>` e `<npm install>` novamente para debugar.
 
 ### Funcionamento
 - Users: admin, client e agency;
 - Funcionalidades: autenticar users (admin, bank, agency e client) e transação conta corrente.
 
 #### Endpoints
-GET
-    - [X] Bancos/Banks;
-    - [X] Usuários/Users;
-    - [X] Agência/Agency;
-    - [X] Clientes/Clients;
-    - [X] Conta corrente/Current Account.
-POST
-    - [X] Bancos/Banks;
-    - [X] Usuários/Users;
-    - [X] Agência/Agency;
-    - [X] Clientes/Clients;
-    - [X] Conta corrente/Current Account.
-DELETE
-    - [X] Bancos/Banks;
-    - [X] Usuários/Users;
-    - [X] Agência/Agency;
-    - [X] Clientes/Clients;
-    - [X] Conta corrente/Current Account.
+**GET**
+    - Bancos/Banks;
+    - Usuários/Users;
+    - Agência/Agency;
+    - Clientes/Clients;
+    - Conta corrente/Current Account.
+
+**POST**
+    - Bancos/Banks;
+    - Usuários/Users;
+    - Agência/Agency;
+    - Clientes/Clients;
+    - Conta corrente/Current Account.
+
+**DELETE**
+    - Bancos/Banks;
+    - Usuários/Users;
+    - Agência/Agency;
+    - Clientes/Clients;
+    - Conta corrente/Current Account.
