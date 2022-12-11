@@ -10,8 +10,8 @@
   "author": "Tatiani Meneghini",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "1.18.3",
-    "express": "^4.17.1",
+    "body-parser": "1.20.1",
+    "express": "^4.18.2",
     "marko": "4.13.4-1",
     "method-override": "^3.0.0",
     "node": "^14.0.0",
